@@ -14,3 +14,5 @@ class CheckingAccount(BankAccount):
             self.current_balance -= amount
             recipient_account.current_balance += amount
             print(f"Transferred ${amount} to {recipient_account.customer_name}. New Balance: ${self.current_balance}.")
+
+# File has been debugged of errors

@@ -22,3 +22,5 @@ class BankAccount:
         print(f"Current Balance: ${self.current_balance}")
         print(f"Minimum Balance: ${self.minimum_balance}")
         print(f"Account Number: {self._account_number}")
+
+# File has been debugged of errors

@@ -9,3 +9,5 @@ class SavingsAccount(BankAccount):
         interest = self.current_balance * ((1 + (self.interest_rate / 100)) ** years - 1)
         self.current_balance += interest
         print(f"Interest applied for {years} year(s): ${interest}. New Balance: ${self.current_balance}.")
+
+# File has been debugged of errors
